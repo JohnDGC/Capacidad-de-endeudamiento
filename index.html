@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Capacidad de endeudamiento</title>
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section class="main-container">
+      <div class="info">
+        <h1>Capacidad de endeudamiento</h1>
+        <p>
+          Es la cantidad de deuda máxima que se puede asumir sin afectar la
+          salud financiera de una persona o empresa. Según los expertos es
+          recomendable que el porcentaje de la capacidad de endeudamiento sea
+          máximo del 40% de los ingresos, después de esto es peligroso para tu
+          economía.
+        </p>
+        <p>
+          Con lo anterior podemos deducir que puedes endeudarte hasta en un 40%
+          de tus ingresos y el porcentaje restante, es decir el 60%, utilizarlo
+          para cumplir con las obligaciones básicas como vivienda, alimentación,
+          salud, ahorro etc, esto te permitirá suplir estas necesidades sin
+          mayor preocupación.
+        </p>
+      </div>
+      <section class="indebtedness">
+        <div class="indebtedness-container">
+          <div class="title">
+            <h1>Cálculo</h1>
+          </div>
+          <div class="data">
+            <label for="earnings">
+              <span>Ingresos mensuales:</span>
+              <input type="number" id="earnings" placeholder="Ingreso en $" />
+            </label>
+            <label for="expenses">
+              <span>Gastos fijos:</span>
+              <input type="number" id="expenses" placeholder="Gastos en $" />
+            </label>
+          </div>
+          <div class="buttons">
+            <div>
+              <button type="button" id="btn">Calcular</button>
+              <button type="button" id="restart">Reiniciar</button>
+            </div>
+            <p class="result"></p>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
